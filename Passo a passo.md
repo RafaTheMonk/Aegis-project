@@ -89,3 +89,15 @@
 11. Copie a estrutura de Category para fazer as outras categorias
 
 6º  Commit:
+
+1. Começar a refatorar o código
+2. Resolução do 'Problema' de escopo da const categories e function filterCategory
+3. Solução dos 'erros' no arquivo index.js de Category
+4. Solução do erro da const categories
+5. Ajuste do import para receber a const e da function
+6. Solução do erro da function filterCategory
+7. Ajuste do import para receber a const e da function
+8. 'Erro' do import de vídeos em App.js
+
+7º Commit:
+
