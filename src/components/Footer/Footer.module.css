@@ -17,7 +17,7 @@
   justify-content: center;
   color: var(--text-color);
   border-top: 2px solid var(--second-color);
-  padding-block: 0.5rem;
+  padding-block: 1.125rem;
 }
 
 .footer h2 {

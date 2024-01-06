@@ -1,0 +1,142 @@
+[
+    {
+        "id": "GuVu-ymE_e0",
+        "title": "Introdução a cyber segurança:",
+        "cover": "https://img.youtube.com/vi/GuVu-ymE_e0/mqdefault.jpg",
+        "url": "https://youtu.be/GuVu-ymE_e0",
+        "category": "Nível iniciante"
+    },
+    {
+        "id": "iiK5PQgHgCo",
+        "title": "Segurança e senhas:",
+        "cover": "https://img.youtube.com/vi/iiK5PQgHgCo/mqdefault.jpg",
+        "url": "https://youtu.be/iiK5PQgHgCo",
+        "category": "Nível iniciante"
+    },
+    {
+        "id": "E3fWr57HSKM",
+        "title": "Conscientização sobre Phishing:",
+        "cover": "https://img.youtube.com/vi/E3fWr57HSKM/mqdefault.jpg",
+        "url": "https://youtu.be/E3fWr57HSKM",
+        "category": "Nível iniciante"
+    },
+    {
+        "id": "QFdkggG34wo",
+        "title": "Segurança em Redes Domésticas:",
+        "cover": "https://img.youtube.com/vi/QFdkggG34wo/mqdefault.jpg",
+        "url": "https://youtu.be/QFdkggG34wo",
+        "category": "Nível iniciante"
+    },
+    {
+        "id": "1t9uBsMJW4k",
+        "title": "Backup e Recuperação de dados:",
+        "cover": "https://img.youtube.com/vi/1t9uBsMJW4k/mqdefault.jpg",
+        "url": "https://youtu.be/1t9uBsMJW4k",
+        "category": "Nível iniciante"
+    },
+    {
+        "id": "52oBHcFljQU",
+        "title": "Inteligência Artificial e Cibersegurança:",
+        "cover": "https://img.youtube.com/vi/52oBHcFljQU/mqdefault.jpg",
+        "url": "https://youtu.be/52oBHcFljQU",
+        "category": "Nível iniciante"
+    },
+    {
+        "id": "XVk13gcoes4",
+        "title": "Firewalls e Antivirus:",
+        "cover": "https://img.youtube.com/vi/XVk13gcoes4/mqdefault.jpg",
+        "url": "https://youtu.be/XVk13gcoes4",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "TcB8iIuxK4w",
+        "title": "Segurança em dispositivos móveis:",
+        "cover": "https://img.youtube.com/vi/TcB8iIuxK4w/mqdefault.jpg",
+        "url": "https://youtu.be/TcB8iIuxK4w",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "CcU5Kc_FN_4",
+        "title": "Criptografia:",
+        "cover": "https://img.youtube.com/vi/CcU5Kc_FN_4/mqdefault.jpg",
+        "url": "https://youtu.be/CcU5Kc_FN_4",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "ELLcBXJFnn8",
+        "title": "Análise de Malware:",
+        "cover": "https://img.youtube.com/vi/ELLcBXJFnn8/mqdefault.jpg",
+        "url": "https://youtu.be/ELLcBXJFnn8",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "s9gXjaatFNM",
+        "title": "Autenticação de dois fatores:",
+        "cover": "https://img.youtube.com/vi/s9gXjaatFNM/mqdefault.jpg",
+        "url": "https://youtu.be/s9gXjaatFNM",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "8oFcjJi7mp8",
+        "title": "Segurança em IoT:",
+        "cover": "https://img.youtube.com/vi/8oFcjJi7mp8/mqdefault.jpg",
+        "url": "https://youtu.be/8oFcjJi7mp8",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "0rkpa2jLqFg",
+        "title": "Aspectos Jurídicos em Cibersegurança:",
+        "cover": "https://img.youtube.com/vi/0rkpa2jLqFg/mqdefault.jpg",
+        "url": "https://youtu.be/0rkpa2jLqFg",
+        "category": "Nível intermediário"
+    },
+    {
+        "id": "RIQsengnsZQ",
+        "title": "Teste de Penetração:",
+        "cover": "https://img.youtube.com/vi/RIQsengnsZQ/mqdefault.jpg",
+        "url": "https://youtu.be/RIQsengnsZQ",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "zrDKvniByqo",
+        "title": "Segurança em Nuvem:",
+        "cover": "https://img.youtube.com/vi/zrDKvniByqo/mqdefault.jpg",
+        "url": "https://youtu.be/zrDKvniByqo",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "OzBy8nYLY-I",
+        "title": "Segurança em aplicações WEb:",
+        "cover": "https://img.youtube.com/vi/OzBy8nYLY-I/mqdefault.jpg",
+        "url": "https://youtu.be/OzBy8nYLY-I",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "Tii-_Cy4MNE",
+        "title": "Gestão de Incidentes:",
+        "cover": "https://img.youtube.com/vi/Tii-_Cy4MNE/mqdefault.jpg",
+        "url": "https://youtu.be/Tii-_Cy4MNE",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "2jHuTZ1y0b8",
+        "title": "Segurança em redes sem fio:",
+        "cover": "https://img.youtube.com/vi/2jHuTZ1y0b8/mqdefault.jpg",
+        "url": "https://youtu.be/2jHuTZ1y0b8",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "3DJX4xgrZek",
+        "title": "Blockchain e segurança:",
+        "cover": "https://img.youtube.com/vi/3DJX4xgrZek/mqdefault.jpg",
+        "url": "https://youtu.be/3DJX4xgrZek",
+        "category": "Nível avançado"
+    },
+    {
+        "id": "uLzmeeEAc34",
+        "title": "CiberSegurança Industrial:",
+        "cover": "https://img.youtube.com/vi/uLzmeeEAc34/mqdefault.jpg",
+        "url": "https://youtu.be/uLzmeeEAc34",
+        "category": "Nível avançado"
+    }
+]

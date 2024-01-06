@@ -53,4 +53,26 @@
 19. Dinamizar a informação sobre a imagem do Banner, usando props
 20. Passar a props image no componente Banner
 
-4ª Commit
+4ª Commit:
+
+1. Ajustes para retirar informações do App.js
+2. Criar componente Card
+3. Usar o Card na nossa aplicação
+4. CSS de Card
+5. Ajuste do CSS do Container
+6. Organizar os Cards com seus títulos
+7. Criar section para organizar título e Card
+8. CSS (global) index.css para criar uma formatação do .card que está em App
+9. CSS de Card (ajuste)
+10. Motivação para mapear o JSON
+11. Ajustes no componente Card para usarmos o dados do JSON
+12. Passar as props id para os Cards
+13. Dinamizar os Cards pegando os IDs do JSON
+14. Criar a pasta json dentro de src
+15. Import dos videos do arquivo db.json
+16. Map sem o uso do key, corrigir
+17. Props key
+18. Criar outras categorias com para listas de Cards
+
+5º Commit:
+

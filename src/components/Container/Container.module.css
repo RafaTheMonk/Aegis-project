@@ -10,7 +10,6 @@
 
 .container {
   width: 100%;
-  height: 450px;
   background-color: var(--bg-color);
   color: var(--text-color);
   padding-block: 1rem;
