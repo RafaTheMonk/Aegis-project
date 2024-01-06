@@ -31,3 +31,26 @@
 18. Criar componente Footer
 
 3º Commit:
+
+1. Layout básico no Figma
+2. Revisão do que já fizemos até o momento
+3. Ajustes no CSS do projeto, Footer
+4. Ajustes no CSS do projeto, Header
+5. Criar novos componentes
+6. Criar componente Banner
+7. Copiar imagens de banners para a pasta images dentro de public
+8. Criar pastas e arquivos do componente
+9. index.js do Banner
+10. CSS do Banner, as imagens tem por padrão 1920x347
+11. Criar componente Container
+12. Criar pastas e arquivos do componente
+13. Colocar conteúdos nos componentes, usando props.children
+14. Em App.js usar o componente Container e passar o children (h1 e p)
+15. CSS do Container
+16. Dinamizar a troca de imagens do Banner com props
+17. Injetar style inline na tag de abertura
+18. Retirar a propriedade background-image do CSS
+19. Dinamizar a informação sobre a imagem do Banner, usando props
+20. Passar a props image no componente Banner
+
+4ª Commit
