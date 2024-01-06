@@ -76,3 +76,16 @@
 
 5º Commit:
 
+1. Novo arquivo JSON, videos.json
+2. Atualizar o import de mapeamento dos vídeos
+3. Criar componente Category
+4. Usar o componente Category
+5. CSS de Category
+6. Preparação para filtrar vídeos por categoria
+7. Criar a const cateogories
+8. Filtrar vídeos por categoria
+9. Criar função filterCategory
+10. Usar a função filterCategory
+11. Copie a estrutura de Category para fazer as outras categorias
+
+6º  Commit:
