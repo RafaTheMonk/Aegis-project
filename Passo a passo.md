@@ -169,5 +169,6 @@
 4. Criar componente Carousel personalizado usando o React Slick
 5. Usar o Carousel na page Biblioteca
 5. Ajustes no CSS dos componentes: Container, Category, Card e Carousel(carousel.css)
+6. formatei a barra de rolagem da página também
 
 13º Commit:

@@ -7,6 +7,7 @@ import Category, {
   categories,
   filterCategory,
 } from "../../components/Category";
+import Carousel from "../../components/Carousel";
 
 function Library() {
   return (
@@ -16,9 +17,11 @@ function Library() {
       <Container>
         {categories.map((category, index) => (
           <Category category={category}>
+            <Carousel>
             {filterCategory(index).map((video) => (
               <Card id={video.id} key={video.id} />
             ))}
+            </Carousel>
           </Category>
         ))}
       </Container>
