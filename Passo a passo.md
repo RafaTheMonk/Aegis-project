@@ -193,3 +193,53 @@
 1. Criar componente Form, index e css
 2. Criar page VideoCadastre
 3. Criar rota para acessar page VideoCadastre
+
+16º Commit:
+
+1. Apresentação do Formulário
+2. Receber ou Pegar dados do Form
+3. Processar dados do Form
+4. Função onSave chamada no evento onSubmit do Form
+5. Criar função onSave
+6. Criar estados para guardar dados do Form
+7. Criar estados para guardar erros
+8. Criar estado para guardar url e category em objeto
+9. Persistência de Dados localStorage 
+10. Resetar estados e inputs
+11. Início da validação
+12. Tratamento de Erros
+13. Validação da Category
+14. Validação de URL
+15. Exibir Erros
+16. Validação de URL
+17. 1ª Mudança na ordem de validações
+18. 2ª Mudança na ordem de validações
+19. Testes das validações
+20. Considerações finais sobre validações
+21. Utilizei esse padrão regex (/^(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/)([a-zA-Z0-9\-_]+)$/) para validar os urls dos videos:
+   
+   ^: Este símbolo marca o início da string. Isso garante que a correspondência comece a partir do início da string de entrada.
+
+(?:https?:\/\/)?: Este é um grupo não capturador (indicado por ?:) que verifica a presença opcional de http:// ou https://. O ? após o grupo torna toda a expressão https?:\/\/ opcional.
+
+(?:www\.)?: Outro grupo não capturador que verifica a presença opcional de www.. O ? novamente torna a presença de www. opcional.
+
+(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/): Este é um grupo não capturador complexo que lida com diferentes formatos de URL do YouTube:
+
+youtube\.com\/: Corresponde à parte youtube.com/ da URL.
+(?:embed\/|watch\?v=): Um grupo não capturador interno que corresponde a embed/ (usado em URLs de incorporação de vídeo) ou watch?v= (usado em URLs de visualização padrão).
+youtu\.be\/: Corresponde à forma encurtada da URL do YouTube, como youtu.be/.
+([a-zA-Z0-9\-_]+): Este é um grupo de captura que corresponde ao ID do vídeo. Ele pode conter letras maiúsculas e minúsculas (a-zA-Z), dígitos (0-9), hifens (-) e sublinhados (_). O sinal de + indica que pode haver um ou mais desses caracteres.
+
+$: Este símbolo marca o fim da string. Isso garante que a correspondência termine no final da string de entrada.
+
+Em resumo, esse regex é usado para validar e extrair o ID de um vídeo do YouTube de diferentes formatos de URL, como:
+
+https://www.youtube.com/watch?v=ID_DO_VIDEO
+https://youtube.com/embed/ID_DO_VIDEO
+https://youtu.be/ID_DO_VIDEO
+E também aceita variações dessas URLs sem https://, www., etc.
+
+17º Commit:
+
+1. 
