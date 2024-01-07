@@ -147,3 +147,8 @@
 
 10º Commit:
 
+1. O que são React Hooks?
+2. Situação prática de criação do useState()
+3. Criação do search
+4. Estudo do conceito de imutabilidade do react dentro do input(Se não tiver nada que avise o react que faça renderização desse componente ou que mude o componente ele não mudará)
+5. Utilizei um hook usestate para modificar o layout do h2 em search, após eu capturar o conteúdo do input com um event.target.value, criando assim uma função setter.
