@@ -172,3 +172,10 @@
 6. formatei a barra de rolagem da página também
 
 13º Commit:
+
+1. Criar page Favorites
+2. Criar route /favorites
+3. Refatorar Header, tirar link Assistir e criar link Favoritos
+4. Formatar CSS de Favorites
+5. Refatorar Card para exibir ícone Favoritar ou Desfavoritar
+6. Formatações CSS do Card
