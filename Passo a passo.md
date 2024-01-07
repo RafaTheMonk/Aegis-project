@@ -152,3 +152,22 @@
 3. Criação do search
 4. Estudo do conceito de imutabilidade do react dentro do input(Se não tiver nada que avise o react que faça renderização desse componente ou que mude o componente ele não mudará)
 5. Utilizei um hook usestate para modificar o layout do h2 em search, após eu capturar o conteúdo do input com um event.target.value, criando assim uma função setter.
+
+11º Commit:
+
+1. Criar nova página Search
+2. Criar nova rota para /search
+3. Criar novo componente VideoList que lista todos os vídeos
+   Este componente será usado para exibir a lista de vídeos
+4. Criar um componente de input que eu possa manipular e criar um filtro para aba de pesquisa lendo meu json(Também transformei tudo em letras minusculas nessa função, para evitar conflitos de busca em videos com titulos em caixa alta ou baixa)
+
+12º Commit:
+
+1. Usar lib React Slick para criar Carousel dos cards
+2. Instalar o react-slick
+3. Importar o CSS do react-slick
+4. Criar componente Carousel personalizado usando o React Slick
+5. Usar o Carousel na page Biblioteca
+5. Ajustes no CSS dos componentes: Container, Category, Card e Carousel(carousel.css)
+
+13º Commit:

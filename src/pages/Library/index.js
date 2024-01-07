@@ -7,25 +7,13 @@ import Category, {
   categories,
   filterCategory,
 } from "../../components/Category";
-import { useState } from "react";
 
 function Library() {
-  function pegarNome(event) {
-    setNome(event.target.value);
-  }
-  const [nome, setNome] = useState();
-
   return (
     <>
       <Header />
       <Banner image="home" />
       <Container>
-        <input 
-          type="text" 
-          placeholder="Nome" 
-          onChange={pegarNome} 
-        />
-        <h2>{nome}</h2>
         {categories.map((category, index) => (
           <Category category={category}>
             {filterCategory(index).map((video) => (
