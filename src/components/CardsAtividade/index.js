@@ -44,38 +44,50 @@ function CardsAtividade() {
             </div>
           </div>
           <div className={styles.atividades_card}>
-            <img src="Quiz/" alt="" />
+            <img src="images/Quiz.png" alt="" />
             <div className={styles.atividades_cardGroup_text}>
-              <a href="">
-                <h3>Netflix</h3>
-                <h5>Video Streaming</h5>
+              <a href="Quiz/Quiz_Index.html">
+                <h3>Quiz de Revisão</h3>
+                <h5>
+                  Faça uma breve revisão de tudo que você aprendeu ao longo dos
+                  seus estudos, de uma forma objetiva como um quiz.
+                </h5>
               </a>
             </div>
           </div>
           <div className={styles.atividades_card}>
-            <img src="images/hamburguer.jpg" alt="" />
+            <img src="images/hacker.png" alt="" />
             <div className={styles.atividades_cardGroup_text}>
               <a href="">
-                <h3>Brito's Dinner</h3>
-                <h5>Snack Bar</h5>
+                <h3>Simulador de Vulnerabilidades</h3>
+                <h5>
+                  Dispositivo para simular possíveis ataques que você pode
+                  sofrer no dia dia.
+                </h5>
               </a>
             </div>
           </div>
           <div className={styles.atividades_card}>
-            <img src="images/Bank.jpg" alt="" />
+            <img src="images/Quiz.png" alt="" />
             <div className={styles.atividades_cardGroup_text}>
-              <a href="">
-                <h3>Brito's Bank</h3>
-                <h5>Bank App</h5>
+              <a href="Quiz/Quiz_Index.html">
+                <h3>Quiz de Revisão</h3>
+                <h5>
+                  Faça uma breve revisão de tudo que você aprendeu ao longo dos
+                  seus estudos, de uma forma objetiva como um quiz.
+                </h5>
               </a>
             </div>
           </div>
           <div className={styles.atividades_card}>
-            <img src="images/urubu.jpg" alt="" />
+            <img src="images/hacker.png" alt="" />
             <div className={styles.atividades_cardGroup_text}>
-              <a href="#">
-                <h3>Urubu do Pix</h3>
-                <h5>IQ options</h5>
+              <a href="">
+                <h3>Simulador de Vulnerabilidades</h3>
+                <h5>
+                  Dispositivo para simular possíveis ataques que você pode
+                  sofrer no dia dia.
+                </h5>
               </a>
             </div>
           </div>

@@ -179,3 +179,17 @@
 4. Formatar CSS de Favorites
 5. Refatorar Card para exibir ícone Favoritar ou Desfavoritar
 6. Formatações CSS do Card
+
+14º Commit:
+
+1. Criar contexts(Que são states globais, usei o provider)
+2. Criar FavoriteContext
+3. Criar Hook Personalizado para controlar estado do contexto
+4. Ajustes nas rotas
+5. Ajustes nos Cards
+
+15º Commit:
+
+1. Criar componente Form, index e css
+2. Criar page VideoCadastre
+3. Criar rota para acessar page VideoCadastre

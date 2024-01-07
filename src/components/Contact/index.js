@@ -14,13 +14,11 @@ function Contact() {
             type="email"
             name="email"
             placeholder="Digite seu e-mail para a resposta"
-            required
           />
           <input
             type="text"
             name="text"
             placeholder="Envie sua mensagem"
-            required
           />
           <input type="submit" name="submit" />
         </form>
