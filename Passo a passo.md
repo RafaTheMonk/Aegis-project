@@ -88,7 +88,7 @@
 10. Usar a função filterCategory
 11. Copie a estrutura de Category para fazer as outras categorias
 
-6º  Commit:
+6º Commit:
 
 1. Começar a refatorar o código
 2. Resolução do 'Problema' de escopo da const categories e function filterCategory
@@ -101,7 +101,7 @@
 
 7º Commit:
 
-1. Instalar a lib react-router-dom 
+1. Instalar a lib react-router-dom
 2. Começo da criação de páginas
 3. Organização do projeto em páginas
 4. Criação de pastas e arquivos das pages
@@ -116,10 +116,34 @@
 13. Usar AppRoutes de router.js
 14. Refatorar componente Header
 15. Finalizar a page Watch
-16. CSS de Watch 
+16. CSS de Watch
 17. Incorporar um vídeo do YouTube em Watch
 18. Ajuste no CSS do Container
 19. Aumentar o tamanho do vídeo incorporado
 20. Refatoração da página home do projeto em php para transformar tudo em componentes e modularizar
+21. Transformei meu App em App Spa com páginas dinâmicas, com routes, utilizando react-router-dom.
 
 8º Commit:
+
+1. Consertar o Layout
+2. Criar nova página Erro 404
+3. Criar nova rota para PageNotFound
+4. Estrutura de página completa para PageNotFound
+5. Ajustes no CSS
+6. Ajuste no CSS de Footer
+7. Ajuste no index.css
+8. CSS de Category
+9. CSS de Container
+10. CSS do container de PageNotFound
+
+9º Commit:
+
+1. Criar rota dinâmica passando parâmetros
+2. Ajuste no routes.js
+3. Ajuste no componente Watch para pegar o id dos parâmetros da rota(The useParams hook returns an object of key/value pairs of the dynamic params from the current URL that were matched by the <Route path>. Child routes inherit all params from their parent routes.)
+4. Buscar o vídeo por id na nossa lista de videos.json
+5. Exibir o iframe com base no id do card que foi clicado
+6. Ajuste no componente Card para usar o Link e ir para rota /watch/id passando o id do video
+
+10º Commit:
+

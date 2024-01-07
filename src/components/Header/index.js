@@ -11,6 +11,7 @@ function Header() {
       <img src={ Logo }/>
       </Link>
       <nav>
+        <Link to="/">Home</Link>
         <Link to="/library">Biblioteca</Link>
         <Link to="/watch">Assistir</Link>
       </nav>
