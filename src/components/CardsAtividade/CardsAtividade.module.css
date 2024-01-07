@@ -1,0 +1,89 @@
+:root{
+	--bg-color: #1C1C1C;
+	--text-color: #F5F5F5;
+	--main-color: #F5F5F5;
+	--second-color: #708090;
+	--big-font: 4.5rem;
+	--h2-font: 3.2rem;
+	--p-font: 1rem;
+}
+.atividades{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	gap: 100px;
+	max-width: 1110px;
+	margin: 0 auto;
+}
+.atividades_head{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+.atividades_head h3{
+	font-size: var(--h2-font);
+}
+.atividades_head p{
+	font-size: var(--p-font);
+    text-align: justify;
+}
+.atividades_cardGroup{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 50px;
+	flex-wrap: wrap;
+}
+.atividades_card {
+	width: 300px;
+	height: 300px;
+	border: 2px solid var(--main-color);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.atividades_cardGroup_text{
+	width: 80%;
+}
+.atividades_cardGroup_text h3{
+	text-align: center;
+}
+
+/* Responsive */
+
+@media(max-width: 1200px){
+	:root{
+		--big-font: 4rem;
+		--h2-font: 2.5rem;
+		--p-font: 1rem;
+		transition: .3s;
+	}
+	.atividades{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 500px;
+	}
+	.atividades_cardGroup{
+		display: flex;
+		width: 90%;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+	}
+	.atividades_card {
+		width: 200px;
+		height: 200px;
+		border: 2px solid #F5F5F5;
+		border-radius: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

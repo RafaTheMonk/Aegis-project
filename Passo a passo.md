@@ -101,3 +101,25 @@
 
 7º Commit:
 
+1. Instalar a lib react-router-dom 
+2. Começo da criação de páginas
+3. Organização do projeto em páginas
+4. Criação de pastas e arquivos das pages
+5. Page Home
+6. Refatorar arquivo App.js
+7. 'Problema' de imports no arquivo index.js de Home
+8. Solução dos problemas de imports em Home
+9. Page Watch
+10. Testar page Watch
+11. Rotas
+12. Criar arquivo routes.js
+13. Usar AppRoutes de router.js
+14. Refatorar componente Header
+15. Finalizar a page Watch
+16. CSS de Watch 
+17. Incorporar um vídeo do YouTube em Watch
+18. Ajuste no CSS do Container
+19. Aumentar o tamanho do vídeo incorporado
+20. Refatoração da página home do projeto em php para transformar tudo em componentes e modularizar
+
+8º Commit:
