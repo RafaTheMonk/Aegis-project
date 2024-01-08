@@ -49,3 +49,22 @@
   transform-origin: left;
   transform: scaleX(1);
 }
+
+/* Media query para telas de celular */
+@media screen and (max-width: 600px) {
+	:root {
+	  --big-font: 1.8rem;
+	  --med-font: 1.2rem;
+	  --p-font: 0.8rem;
+	}
+  
+	.header {
+	  width: 100%;
+    height: 34px;
+	}
+	.header a {
+    text-decoration: none;
+    padding-inline: 0.5rem;
+    font-size: var(--p-font);
+  }
+  }
