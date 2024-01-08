@@ -7,7 +7,7 @@ function Contact() {
       <section className={styles.contact}>
         <div className={styles.contact_text}>
           <h3>Fale conosco</h3>
-          <p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit.</p>
+          <p>Digite seu email e mensagem abaixo.</p>
         </div>
         <form>
           <input
