@@ -96,15 +96,11 @@
 	}
   
 	.atividades {
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
 	  padding-inline: 1rem;
-	  width: 200px;
+	  width: 100%;
 	}
 	.atividades_card {
-		width: 100px;
-		height: 100px;
+		width: 100%;
 		border: 2px solid #F5F5F5;
 		border-radius: 10px;
 		display: flex;
