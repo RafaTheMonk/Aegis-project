@@ -4,13 +4,8 @@
 
 /* Media query para telas de celular */
 @media screen and (max-width: 600px) {
-    :root {
-      --big-font: 1rem;
-      --med-font: 0.8rem;
-      --p-font: 0.5rem;
-    }
     .watch iframe{
-        width: 427px;
-        height: 240px;
+        width: 100%;
+        height: 230px;
     }
   }
