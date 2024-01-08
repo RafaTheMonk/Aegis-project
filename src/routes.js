@@ -11,11 +11,9 @@ import VideoCadastre from "./pages/VideoCadastre";
 function AppRoutes() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
       <FavoritesProvider>
         <Routes>
+          <Route path="/" element={<Home />}></Route>
           <Route path="/library" element={<Library />}></Route>
           <Route path="/watch/:id" element={<Watch />}></Route>
           <Route path="/search" element={<Search />}></Route>
