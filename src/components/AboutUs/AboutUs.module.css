@@ -75,11 +75,11 @@
 
   .about {
     padding-inline: 1rem;
-    width: 100%
+    width: 100px;
   }
   .about img {
     padding-inline: 1rem;
-    width: 100%
+    width: 100%;
   }
   .about_text h3 {
     font-size: var(--big-font);
