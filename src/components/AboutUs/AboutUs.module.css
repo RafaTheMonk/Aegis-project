@@ -75,14 +75,11 @@
 
   .about {
     padding-inline: 1rem;
-    width: 200px;
+    width: 100%
   }
   .about img {
     padding-inline: 1rem;
-    width: 100px;
-  }
-  .about_text {
-    text-align: justify;
+    width: 100%
   }
   .about_text h3 {
     font-size: var(--big-font);
@@ -90,11 +87,11 @@
   }
   .about_text p {
     font-size: var(--p-font);
-    line-height: 25px;
+    line-height: 10px;
     margin-bottom: 20px;
   }
   .btn {
     font-size: var(--p-font);
-    width: 40%;
+    width: 60%;
   }
 }
