@@ -68,9 +68,9 @@
 /* Media query para telas de celular */
 @media screen and (max-width: 600px) {
   :root {
-    --big-font: 1.8rem;
-    --med-font: 1.2rem;
-    --p-font: 0.8rem;
+    --big-font: 1rem;
+    --med-font: 0.8rem;
+    --p-font: 0.5rem;
   }
 
   .about {
