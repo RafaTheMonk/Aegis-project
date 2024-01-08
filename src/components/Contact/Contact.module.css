@@ -66,29 +66,6 @@
     margin-left: 105px;
   }
 }
-.about_text {
-  text-align: justify;
-}
-.about_text h3 {
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.about_text p {
-  font-size: var(--p-font);
-  line-height: 25px;
-  margin-bottom: 20px;
-}
-.btn {
-  display: flex;
-  color: var(--text-color);
-  font-size: var(--p-font);
-  padding: 10px 35px;
-  border: 2px solid var(--main-color);
-  border-radius: 10px;
-  transition: ease 0.5s;
-  text-decoration: none;
-  width: 40%;
-}
 /* Media query para telas de celular */
 @media screen and (max-width: 600px) {
   :root {
