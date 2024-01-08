@@ -78,8 +78,7 @@
     width: 100px;
   }
   .about img {
-    padding-inline: 1rem;
-    width: 100%;
+    display: none;
   }
   .about_text h3 {
     font-size: var(--big-font);
