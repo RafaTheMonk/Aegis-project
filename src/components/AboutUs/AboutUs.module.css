@@ -87,7 +87,7 @@
   }
   .about_text p {
     font-size: var(--p-font);
-    line-height: 10px;
+    line-height: 25px;
     margin-bottom: 20px;
   }
   .btn {
