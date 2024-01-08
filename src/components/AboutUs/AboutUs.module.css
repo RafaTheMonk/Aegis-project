@@ -74,14 +74,27 @@
   }
 
   .about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-inline: 1rem;
     width: 200px;
   }
   .about img {
     padding-inline: 1rem;
-    width: 50px;
+    width: 100px;
+  }
+  .about_text {
+    text-align: justify;
+  }
+  .about_text h3 {
+    font-size: var(--big-font);
+    margin-bottom: 20px;
+  }
+  .about_text p {
+    font-size: var(--p-font);
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    font-size: var(--p-font);
+    width: 40%;
   }
 }
