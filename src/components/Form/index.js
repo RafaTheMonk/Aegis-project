@@ -8,6 +8,25 @@ function Form() {
   const [videos, setVideos] = useState([]);
   const [errors, setErrors] = useState("");
 
+  // Função para enviar dados para o servidor
+  function sendDataToServer(newVideo) {
+    fetch("http://localhost:3001/videos", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(newVideo),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Sucesso:", data);
+        // Limpar o form e atualizar a interface aqui, se necessário
+      })
+      .catch((error) => {
+        console.error("Erro:", error);
+      });
+  }
+
   function valideUrl(url) {
     const regex =
       /^(?:https?:\/\/)?(?:www\.)?(?:youtube\.com\/(?:embed\/|watch\?v=)|youtu\.be\/)([a-zA-Z0-9\-_]+)$/;
@@ -38,6 +57,9 @@ function Form() {
       const newVideo = { url, category };
       setVideos([...videos, newVideo]);
       localStorage.setItem("videos", JSON.stringify([...videos, newVideo]));
+
+      // Enviar os dados para o servidor
+      sendDataToServer(newVideo);
 
       // Limpar o form
       setUrl("");

@@ -31,3 +31,21 @@
   padding-inline: 1rem;
   font-size: var(--p-font);
 }
+
+.header a::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.1s;
+}
+.header a:hover::after{
+  transform-origin: left;
+  transform: scaleX(1);
+}
