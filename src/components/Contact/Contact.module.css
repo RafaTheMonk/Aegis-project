@@ -17,8 +17,8 @@
   gap: 20px;
   border-radius: 10px;
   border: 2px solid var(--second-color);
-  margin-bottom: 15px;
   margin-left: 220px;
+  padding: 50px;
 }
 .contact_text {
   display: flex;
@@ -78,6 +78,7 @@
     gap: 20px;
     padding: 25px 60px;
     border-radius: 10px;
+	margin-left: 50px;
     border: 2px solid var(--second-color);
   }
   .contact_text {
